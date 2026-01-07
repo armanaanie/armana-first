@@ -4,7 +4,20 @@
     box-sizing: border-box;
 }
 
-
+.btn{
+    background-color:#F15B22 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 21px 25px;
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: right;
+}
+.btn2{
+    background-color: white;
+    color: #F15B22;
+}
 .work-sans{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -30,21 +43,97 @@ text-align: right;
 .hero-container .hero .title{
     font-size: 65px;
     font-weight: bold;
-    margin-bottom: 24px;
-}
+    margin-bottom: 24px;}
 .hero-container .hero .subtitle{
     line-height: 26px;
     margin-bottom: 34px;
 
 }
+#banner #card #watch{
 
-.btn{
-    background-color:#F15B22 ;
+    max-width: 1300px;
+    margin: 0 auto;}
+    
+#banner .banner-container{
+    margin: 206px 124px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+}
+#banner .banner-container .hero-image{
+    width: 569px;
+    height: 723px;
+}
+#banner .banner-container .title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:24px;
+}
+#banner .banner-container .subtitle{
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+#banner .banner-container .list{
+    list-style: none;
+}
+#banner .banner-container .list li{
+    margin-bottom: 8px;
+}
+#card .card
+    {margin: 206px 124px;
+        text-align: center;
+
+}
+#card .card .cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 53px;
+}
+#watch {
+    margin: 206px 124px;
+    height: 300px;
+    background-image: url(./images/gradient2.png),url(./images/watch.png);
+    background-size: cover;
+    background-position:bottom left;
+    display: flex;
+  align-items: center;
+
+}
+#watch .watch-container{
+    margin-left: 60px;
+    width: 459px;
+}
+#watch .watch-container .title{
     color: white;
-    border: none;
+   margin-top: 59px;
+   margin-bottom:24px ;
+}
+#footer{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#footer .footer{
+    display: flex;
+    justify-content: space-between;color: white;
+    background-color: black;
+    padding: 130px 230px;
+    gap: 311px;
+}
+#footer .footer .subtitle{margin-top: 15px;
+    margin-bottom: 74px;
+    
+}
+#footer .footer .icon img{
+    width: 47px;
+    margin-right: 17px;
+
+}
+#footer .footer input{
+    margin-top: 31px;
+    margin-bottom: 24px;
+    width: 325px;
+    padding: 20px;
     border-radius: 5px;
-    padding: 21px 25px;
-    font-size: 20px;
-    font-weight: 600px;
-    text-align: right;
 }
